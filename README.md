@@ -1,18 +1,10 @@
 # React Profile Card
 
 <p align="center">
-  <img src="public/profile-card-result.png" alt="Screenshot" width="500" />
+  <img src="public/profile-card-result.jpg" alt="Screenshot" width="400" />
 </p>
 
 This project is an interactive profile card built with React. It displays personal information such as name, description, and a list of skills with corresponding emojis indicating proficiency levels.
-
-## Demo
-
-[Link to the project demo (if available)]
-
-## Screenshot
-
-![Profile Card Screenshot](CeciProfileCard.jpg)
 
 ## Features
 
