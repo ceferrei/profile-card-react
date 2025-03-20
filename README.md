@@ -46,20 +46,7 @@ This project is an interactive profile card built with React. It displays person
 
 5.  **Open your browser at `http://localhost:3000`.**
 
-## Project Structure
 
-```
-profile-card-react/
-├── public/
-│   └── CeciProfileCard.jpg
-├── src/
-│   ├── App.js
-│   ├── index.js
-│   └── index.css
-├── package.json
-├── package-lock.json
-└── README.md
-```
 
 ## Future Improvements
 
