@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&display=swap");
+
+/* Reseta apenas margin, padding e box-sizing no seletor universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Centraliza só o body, com o fundo que quiser */
+body {
+  font-family: "IBM Plex Mono", sans-serif;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  color: #eb347d;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+/* A .card fica com fundo branco ou aliceblue, como preferir */
+.card {
+  width: 400px;
+  margin: 40px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card::after {
+  content: "";
+  display: block;
+}
+
+.avatar {
+  width: 100%;
+  display: block;
+}
+
+.data {
+  padding: 32px;
+
+  padding-top: 24px;
+}
+
+.skill-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.skill {
+  padding: 4px 0px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+img {
+  border-radius: 10px;
+}
